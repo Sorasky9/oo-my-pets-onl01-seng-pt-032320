@@ -83,7 +83,7 @@ pet.owner = nil
 end
 
 def list_pets
-puts "I have #{owner.dogs.count}, and #{owner.cats.count}"
+puts "I have #{self.dogs.count}, and #{owner.cats.count}"
 end
 
 
